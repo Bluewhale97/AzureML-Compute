@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+## Introduction
 
-You can use the [editor on GitHub](https://github.com/Bluewhale97/AzureML-Compute/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+In Azure Machine Learning, data scientists can run experiments based on scripts that process data, train machine learning models, and perform other data science tasks. The runtime context for each experiment run consists of two elements:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+a. The environment for the script, which includes all packages on which the script depends
+b. The compute target on which the environment will be deployed and the script run.
 
-### Markdown
+In this article we will discuss how to create and use environment and compute target in Azure.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Bluewhale97/AzureML-Compute/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
